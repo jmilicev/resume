@@ -1,0 +1,209 @@
+%-------------------------
+% Resume in Latex
+% Author : Sidratul Muntaha Ahmed
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+
+\begin{center}
+    \textbf{\Huge \scshape Jovan Milicev} \\ \vspace{0.1in}
+    \href{mailto:jovan.milicev@gmail.com}{\underline{jovan.milicev@gmail.com}} $|$
+    \href{in.jovanmilicev.com}{\underline{in.jovanmilicev.com}} $|$
+    \href{github.jovanmilicev.com}{\underline{github.jovanmilicev.com}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {York University}{April 2023}
+      {Honours BA, Computer Science}{Toronto, ON}
+          \resumeItemListStart
+            \resumeItem{GPA: 3.8 | Data Structures and Algorithms, Computer Architecture, Advanced Object Oriented Programming, Distributed Systems, Database Management Systems, Computer Networking.}
+        \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+  %-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+     \resumeSubheading
+      {Full Stack Developer}{May 2023 – Present}
+      {Chatbase}{Toronto, ON}
+      \resumeItemListStart
+        \resumeItem{Created comprehensive documentation for the Chatbase API, providing clear instructions and guidelines for integration and usage by external developers.}
+        \resumeItem{Conducted thorough testing of the API using tools like Postman, ensuring its functionality, reliability, and compatibility with various platforms.}
+        \resumeItem{Identified and reported API bugs, providing detailed feedback to the API development team for prompt resolution and improvement of the Chatbase API performance.}
+        \resumeItem{Conducted user testing and gathered feedback to identify areas of improvement for the Chatbase API, ensuring a user-centric approach in its development.}
+      \resumeItemListEnd
+    
+    \resumeSubheading
+      {Undergraduate Teaching Assistant}{September 2022 - January 2023}
+      {York University}{Toronto, ON}
+      \resumeItemListStart
+        \resumeItem{Teaching assistant for EECS2021 (Computer Organization). Taught basics of assembly language programming in RISC-V and fundamentals of computer architecture in iVerilog.}
+        \resumeItem{Facilitated a lab with over 50 students which included solving complex problems, grading assignments, etc. which resulted in an overall increase in the class average.}
+        \resumeItem{Graded assignments and exams, providing detailed feedback to students to help them improve their performance and understanding of the course material.}
+        \resumeItem{Provided one-on-one tutoring to students who needed extra help, resulting in increased confidence and better academic performance.}
+      \resumeItemListEnd
+      
+   \resumeSubheading
+      {Customer Experience Associate}{April 2022 – Present}
+      {Scotiabank}{Mississauga, ON}
+      \resumeItemListStart
+        \resumeItem{Maximized customer satisfaction by helping clients with their banking transactions with a high attention to detail; daily functions included creating bank drafts, mortgage payouts, loan payments, etc.}
+        \resumeItem{Identified customer concerns and prioritize customer complaints to the management team to ensure compliance with bank’s policy and improve the overall client experience.}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+
+    \resumeSubHeadingListStart
+
+        \resumeProjectHeading
+          {\textbf{Portfolio Webpage} $|$ \emph{React, JS}}{May 2023}
+          \resumeItemListStart
+            \resumeItem{Developed a dynamic and visually appealing portfolio website using React.js, featuring personal projects, skills, and experience to showcase to potential clients and employers.}
+            \resumeItem{Continuously updated and maintained the website, adding new projects and improving functionality to enhance user experience and showcase new skills and experience.}
+          \resumeItemListEnd
+
+          
+      \resumeProjectHeading
+          {\textbf{Distributed Go Chat Website} $|$ \emph{Go, JS, Kubernetes}}{April 2023}
+          \resumeItemListStart
+            \resumeItem{Developed a chat-app with golang backend and JavaScript frontend using websockets.}
+            \resumeItem{Built using Docker and deployed on a Kubernetes cluster using a private goHarbour repository.}
+          \resumeItemListEnd
+          
+    \resumeProjectHeading
+          {\textbf{Novel Programming Language} $|$ \emph{ANTLR4, Java}}{November 2022 - January 2023}
+          \resumeItemListStart
+            \resumeItem{Developed a novel programming language using the ANTLR4 parser and Java.}
+            \resumeItem{Language capable of performing variable declarations, assignment, math operations and boolean operations.}
+            \resumeItem{Includes a simplified JUnit style test suite with branch coverage and other testing statistics.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+
+
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, C, JavaScript, GO, RISC-V} \\
+     \textbf{Competencies}{: React, RESTful API, Express, Django, GitHub, NodeJS, Docker, Kubernetes, Swing, Express, Spark} \\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
